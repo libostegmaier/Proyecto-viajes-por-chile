@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap");
+
+body * {
+  text-align: center;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: 'Cabin';
+}
+body {
+  background-color: #000;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen-viajes {
+max-width: 2.5%!important;
+
+}
+
+.imagen-viajes .texto-viajes {
+display:block;
+}
+
+.texto-viajes p {
+margin-left: 10px;
+margin-bottom: -1px;
+color: white;
+}
+
+.navbar-nav {
+  font-family: 'Cabin', 'Lobster' ;
+
+}
+
+#contacto {
+  scroll-behavior: smooth;
+}
+
+.fondo{
+  background-color: #1798c1!important;
+}
+
+#blogCarousel {
+  column-gap: 10px;
+  margin-bottom: 60px;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  
+}
+
+section {
+  width: 100%;
+  height: auto;
+}
+
+.logo img {
+  width: 2.5rem;
+  height: auto;
+  object-fit: cover;
+  margin: 0 0.5rem;
+}
+
+.quienesSomos {
+  color: #fff;
+  margin: 6rem 0;
+}
+
+.quienesSomos h1 {
+  font-size: 2rem;
+  margin: 3rem 0;
+  text-align: center;
+
+}
+
+.iconos {
+  background-color: #299ba6;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.card {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border: none;
+}
+
+.card-body {
+  background-color: #20818b;
+  color: #fff;
+}
+
+.card img {
+  object-fit: cover;
+  width: 100%;
+  height: 150px;
+}
+
+
+.quienesSomos p {
+  text-align: left;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.destacados h2 {
+  color: #fff;
+  font-size: 2rem;
+  margin: 0 0 3rem 0;
+  text-align: center;
+}
+
+.contacto {
+  color: #fff;
+  margin: 6rem 0;
+}
+
+.btn {
+  color: #fff;
+  background-color: #299ba6;
+}
+
+.btn:hover {
+  color: #299ba6;
+  background-color: #fff;
+}
+
+
+.navbar a {
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  padding-left: 4rem;
+  padding-top: 1rem;
+}
+
+.navbar-nav {
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.container-footer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  /* altura del conteneedor */
+  padding: 2rem;
+  color: #fff;
+  background-color: #299ba6;
+  font-size: 1rem;
+  justify-content: space-between;
+  /* Alinea los elementos al inicio y al final del contenedor */
+  padding-left: 8rem;
+  padding-right: 8rem;
+  text-align: center;
+  align-items: center;
+  /* Centra en el eje vertical */
+}
+
+.container-container-fluid {
+  font-size: 3rem;
+  list-style: none;
+  display: inline-block;
+  margin: 0 51rem;
+}
+
+.container-footer ul {
+  margin: 0;
+}
+
+#footer .fa-iconos-credito a {
+  margin-right: 20px; /* Agrega un margen de 10px entre los elementos */
+}
