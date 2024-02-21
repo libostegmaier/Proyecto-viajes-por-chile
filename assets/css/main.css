@@ -8,7 +8,7 @@ body * {
   font-family: 'Cabin';
 }
 body {
-  background-color: #000;
+  background-color: #000000;
   font-size: 18px;
   margin: 0;
   padding: 0;
@@ -46,6 +46,7 @@ color: white;
   column-gap: 10px;
   margin-bottom: 60px;
 }
+
 
 main {
   width: 70%;
